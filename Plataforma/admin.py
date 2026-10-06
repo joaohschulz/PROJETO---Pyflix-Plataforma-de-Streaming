@@ -9,6 +9,5 @@ class SeriesAdmin(admin.ModelAdmin):
     list_display = ['nome_da_serie',]
     
 admin.site.register(Filmes, FilmesAdmin)
-
 admin.site.register(Episodios, EpisodiosAdmin)
 admin.site.register(Series, SeriesAdmin)
